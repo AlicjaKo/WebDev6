@@ -1,1 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('e.jpeg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(187, 201, 214);
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100vh;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#current-time {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#current {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    gap: 30px;
+
+}
+#current-temp {
+    font-size: 50px;
+   
+}
+#current .fl {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#current .fl-info {
+    flex-grow: 1;
+    font-size: 12px;
+    text-align: left;
+    line-height: 8px;
+
+}
+
+#current-icon {
+    width: 200px;
+    flex-grow: 1;
+}
+
+#next {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 80%;
+    align-self: center;
+}
+
+#next .n {
+    background-color: rgb(167, 175, 183);
+    border-radius: 15px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    align-self: center;
+    font-size: 20px;
+    width: 400px;
+}
 
